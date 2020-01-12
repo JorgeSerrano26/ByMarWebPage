@@ -15,8 +15,11 @@
 </head> 
 </head>
 <body>
-    required 'header.php';
-    
+    <?php 
+    required('header.php');
+    required('body.php');
+    required('footer.php');
+    ?>
 </body>
 </html>
 
