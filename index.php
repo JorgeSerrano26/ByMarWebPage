@@ -16,9 +16,9 @@
 </head>
 <body>
     <?php 
-    required('header.php');
-    required('body.php');
-    required('footer.php');
+    include('header.php');
+    include('body.php');
+    include('footer.php');
     ?>
 </body>
 </html>
