@@ -12,7 +12,7 @@
     <title>ByMar</title>
 
     <link rel="stylesheet" media="screen" href="assets/fontawesome/all.min.css" />
-    <link rel="stylesheet" media="screen" href="assets/css/styles.css" />
+    <link rel="stylesheet" media="screen" href="assets/css/styles.css?v=1" />
     
     <head>
 </head> 
@@ -26,7 +26,7 @@
     
     <script src="assets/fontawesome/all.min.js"></script>
     <script src="assets/js/jquery-3.4.1.min.js"></script>
-    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/menu.js?v=1"></script>
 </body>
 </html>
 

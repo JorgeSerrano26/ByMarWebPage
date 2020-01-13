@@ -13,6 +13,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 :root{
     --menu-height:64px; /* according padding and size of menu-icon */
 }
+
 *{padding:0;margin:0;}
 html,body{
     overflow-x: hidden;
@@ -42,7 +43,7 @@ body.block-scroll{
     right: 1em;
 }
 
- .menu-icon{
+.menu-icon{
     z-index: 4 !important;
     font-size: 2em;
     color: #fff;
@@ -53,7 +54,7 @@ body.block-scroll{
 }
  .main-nav{
     display: flex;
-    position: absolute;
+    position: fixed;
     justify-content: center;
     align-items: center;
     overflow: hidden;
