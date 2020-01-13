@@ -1,14 +1,17 @@
-var menu_btn = document.getElementById('menu-button')
+var menu_btn_open = document.getElementById('menu-button-open')
+var menu_btn_close = document.getElementById('menu-button-close')
 var menu_icon = document.getElementsByClassName('menu-icon')
 var nav = document.getElementById('main-nav')
 
-menu_btn.onclick = function() {
+menu_btn_open.onclick = () => {menuToggle()};
+menu_btn_close.onclick = () => {menuToggle()};
+
+function menuToggle(){
     if(nav.classList.contains('hide')){
         nav.classList.replace('hide', 'show')
-        menu_btn.innerHTML = '<a id="menu-button"><span class="menu-icon fas fa-times"></span></a>'
+        document.body.classList.add('block-scroll')
     }else{
         nav.classList.replace('show', 'hide')
-        menu_btn.innerHTML = '<a id="menu-button"><span class="menu-icon fas fa-bars"></span></a>'
+        document.body.classList.remove('block-scroll')
     }
-    
-};
+}
