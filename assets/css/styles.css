@@ -12,6 +12,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 :root{
     --menu-height:64px; /* according padding and size of menu-icon */
+
+    --color-1:#FFBDAB;
+    --color-2:#E8AE90;
+    --color-3:#FFBDAB;
+    --color-4:#E89890;
+    --color-5:#FF9EA9;
 }
 
 *{padding:0;margin:0;}
@@ -94,7 +100,7 @@ body.block-scroll{
     line-height: 1.5em;
 }
  .main-nav ul li a:hover{
-    color: #fff;
+    color: var(--color-1);
     transition: .5s;
 }
  .main-nav ul li a:before, .main-nav ul li a:after{
@@ -106,12 +112,12 @@ body.block-scroll{
     transition: .5s;
 }
  .main-nav ul li a:hover:before{
-    color: #f00;
+    color: var(--color-5);
     z-index: 2;
     transform: translate(.1em,-.1em);
 }
  .main-nav ul li a:hover:after{
-    color: #0ff;
+    color: var(--color-4);
     z-index: 3;
     transform: translate(.2em,-.2em);
 }
