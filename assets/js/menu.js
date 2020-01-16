@@ -7,11 +7,11 @@ menu_btn_open.onclick = () => {menuToggle()};
 menu_btn_close.onclick = () => {menuToggle()};
 
 function menuToggle(){
-    if(nav.classList.contains('hide')){
-        nav.classList.replace('hide', 'show')
+    if( !nav.classList.contains('show')){
+        nav.classList.add('show')
         document.body.classList.add('block-scroll')
     }else{
-        nav.classList.replace('show', 'hide')
+        nav.classList.remove('show')
         document.body.classList.remove('block-scroll')
     }
 }

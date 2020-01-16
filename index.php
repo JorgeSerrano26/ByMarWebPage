@@ -26,7 +26,8 @@
     
     <script src="assets/fontawesome/all.min.js"></script>
     <script src="assets/js/jquery-3.4.1.min.js"></script>
-    <script src="assets/js/menu.js?v=1"></script>
+    <script src="assets/js/menu.js?v=1.5"></script>
+    <script src="assets/js/paint.js?v=1"></script>
 </body>
 </html>
 
