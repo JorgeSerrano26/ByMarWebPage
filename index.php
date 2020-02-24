@@ -12,10 +12,7 @@
     <title>ByMar</title>
 
     <link rel="stylesheet" media="screen" href="assets/fontawesome/all.min.css" />
-    <link rel="stylesheet" media="screen" href="assets/css/styles.css?v=1" />
-    
-    <head>
-</head> 
+    <link rel="stylesheet" media="screen" href="assets/css/styles.css?v=1" /> 
 </head>
 <body>
     <?php 
